@@ -24,7 +24,10 @@ function DetailedConfirmation({
   console.log(enableDelete);
   return (
     <div>
-      <h5>{headingText}</h5>
+      <div className="confirm-warning-header">
+        <img src="/images/alarm.png" alt="warning" />
+        <h5>{headingText}</h5>
+      </div>
       <div className="dtl-confirmation-body">{contentText}</div>
       <div className="confirmation-details">{detailedView}</div>
       <div className="confirmation-instr">{confirmInstr}</div>

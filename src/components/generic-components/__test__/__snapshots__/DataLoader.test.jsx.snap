@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Data Loader Component Loader image should render 1`] = `
+<div>
+  <div
+    class="data-loader"
+  >
+    <img
+      alt="Loading"
+      src="/images/data-loader.gif"
+    />
+    <div
+      class="DataLoader__BlueDiv-sc-15ebnvh-0 gnQMPn"
+    />
+  </div>
+</div>
+`;

@@ -10,7 +10,7 @@ const BlueDiv = styled.div`
 // eslint-disable-next-line react/prop-types
 function DataLoader({ textValue }) {
   return (
-    <div>
+    <div className="data-loader">
       <img src="/images/data-loader.gif" alt="Loading" />
       <BlueDiv>{textValue}</BlueDiv>
     </div>
