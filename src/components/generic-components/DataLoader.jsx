@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const BlueDiv = styled.div`
@@ -7,7 +6,6 @@ const BlueDiv = styled.div`
   font-weight: bold
 `;
 
-// eslint-disable-next-line react/prop-types
 function DataLoader({ textValue }) {
   return (
     <div className="data-loader">
@@ -16,9 +14,4 @@ function DataLoader({ textValue }) {
     </div>
   );
 }
-
-DataLoader.prototype = {
-  text: PropTypes.string
-};
-
 export default DataLoader;
