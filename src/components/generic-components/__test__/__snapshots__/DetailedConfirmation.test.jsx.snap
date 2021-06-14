@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Detailed Confirmation Component Detailed Confirmation component should render 1`] = `
+<div>
+  <div>
+    <div
+      class="confirm-warning-header"
+    >
+      <img
+        alt="warning"
+        src="/images/alarm.png"
+      />
+      <h5 />
+    </div>
+    <div
+      class="dtl-confirmation-body"
+    />
+    <div
+      class="confirmation-details"
+    />
+    <div
+      class="confirmation-instr"
+    >
+      Confirm Instr
+    </div>
+    <input
+      type="text"
+      value=""
+    />
+    <div
+      class="btn-wrapper"
+    >
+      <button
+        class="btn btn-primary"
+        disabled=""
+      >
+        Delete All
+      </button>
+      <button
+        class="btn btn-secondary"
+      >
+        Cancel
+      </button>
+    </div>
+  </div>
+</div>
+`;
