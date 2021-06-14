@@ -46,6 +46,7 @@
     "jest-config": "^26.6.3",
     "jest-environment-jsdom-sixteen": "^1.0.3",
     "jest-styled-components": "^7.0.3",
+    "json-loader": "^0.5.7",
     "postcss-loader": "^3.0.0",
     "stylelint": "^13.9.0",
     "stylelint-config-recommended": "^3.0.0",

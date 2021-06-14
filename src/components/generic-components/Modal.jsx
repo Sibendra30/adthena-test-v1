@@ -22,6 +22,10 @@ const ModalWrapper = styled.div`
   border-radius: 10px;
   border: red 1px solid;
   max-width: 600px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 `;
 
 const CloseIcon = styled.span`
